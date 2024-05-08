@@ -390,12 +390,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2115939556}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &864114608
 GameObject:
@@ -411,11 +411,11 @@ GameObject:
   - component: {fileID: 864114612}
   - component: {fileID: 864114615}
   - component: {fileID: 864114614}
-  - component: {fileID: 864114613}
   - component: {fileID: 864114616}
   - component: {fileID: 864114618}
   - component: {fileID: 864114617}
   - component: {fileID: 864114619}
+  - component: {fileID: 864114620}
   m_Layer: 0
   m_Name: Intelligent Bee
   m_TagString: Untagged
@@ -505,7 +505,7 @@ Transform:
   m_GameObject: {fileID: 864114608}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.66, y: 0.92, z: 0}
+  m_LocalPosition: {x: -7.89, y: 2.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -538,18 +538,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &864114613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 864114608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5fc74aa3c5404fb492501c8a8d8ffb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &864114614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -634,6 +622,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
+--- !u!114 &864114620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864114608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: befa2e544d61b4570b2dd719581dba23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
+  maxPrediction: 2
+  targetObj: {fileID: 2115939553}
 --- !u!1 &980087126
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,8 +650,8 @@ GameObject:
   - component: {fileID: 980087131}
   - component: {fileID: 980087130}
   - component: {fileID: 980087129}
-  - component: {fileID: 980087128}
   - component: {fileID: 980087127}
+  - component: {fileID: 980087134}
   m_Layer: 0
   m_Name: Dumb Bee
   m_TagString: Untagged
@@ -669,20 +672,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
---- !u!114 &980087128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 980087126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a66beb9e59774893ad15d96947207ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weight: 1
-  target: {fileID: 2115939556}
 --- !u!114 &980087129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,12 +796,26 @@ Transform:
   m_GameObject: {fileID: 980087126}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.76, y: -2.54, z: 0}
+  m_LocalPosition: {x: -1.68, y: 1.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &980087134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980087126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072564ef4835d49bf94bdec8884567a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
+  target: {fileID: 2115939556}
 --- !u!1 &1293963051
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,7 +984,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 519420032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2115939557
@@ -1118,7 +1122,6 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 519420032}
   - {fileID: 394919582}
   - {fileID: 2115939556}
   - {fileID: 864114611}
