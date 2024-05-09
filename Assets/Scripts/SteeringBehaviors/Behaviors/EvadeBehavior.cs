@@ -24,7 +24,6 @@ public class EvadeBehavior : Steering
         Vector2 predictedTarget = (Vector2)targetObj.transform.position
                 + targetObj.GetComponent<Rigidbody2D>().velocity * prediction;
 
-        // Calculate the evasion direction
         Vector2 evasionDirection = (Vector2)transform.position - predictedTarget;
 
         return new SteeringData()
