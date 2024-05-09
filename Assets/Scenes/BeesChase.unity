@@ -440,8 +440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d92e9fa3dbf4d1ab7fee05ed643ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcceleration: 3
-  maxAngularAcceleration: 3
+  maxAcceleration: 6
+  maxAngularAcceleration: 6
   drag: 1
 --- !u!50 &207796025
 Rigidbody2D:
@@ -668,8 +668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d92e9fa3dbf4d1ab7fee05ed643ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcceleration: 3
-  maxAngularAcceleration: 3
+  maxAcceleration: 6
+  maxAngularAcceleration: 6
   drag: 1
 --- !u!50 &1055172712
 Rigidbody2D:
@@ -863,8 +863,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d92e9fa3dbf4d1ab7fee05ed643ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcceleration: 3
-  maxAngularAcceleration: 3
+  maxAcceleration: 6
+  maxAngularAcceleration: 6
   drag: 1
 --- !u!50 &1082195511
 Rigidbody2D:
@@ -1160,8 +1160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d92e9fa3dbf4d1ab7fee05ed643ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcceleration: 3
-  maxAngularAcceleration: 3
+  maxAcceleration: 6
+  maxAngularAcceleration: 6
   drag: 1
 --- !u!50 &1239674581
 Rigidbody2D:
@@ -1355,8 +1355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d92e9fa3dbf4d1ab7fee05ed643ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcceleration: 3
-  maxAngularAcceleration: 3
+  maxAcceleration: 6
+  maxAngularAcceleration: 6
   drag: 1
 --- !u!50 &1272333251
 Rigidbody2D:
@@ -1535,8 +1535,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d92e9fa3dbf4d1ab7fee05ed643ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcceleration: 3
-  maxAngularAcceleration: 3
+  maxAcceleration: 6
+  maxAngularAcceleration: 6
   drag: 1
 --- !u!50 &1328997691
 Rigidbody2D:
@@ -1776,8 +1776,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d92e9fa3dbf4d1ab7fee05ed643ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcceleration: 3
-  maxAngularAcceleration: 3
+  maxAcceleration: 6
+  maxAngularAcceleration: 6
   drag: 1
 --- !u!50 &1349147932
 Rigidbody2D:
@@ -2063,8 +2063,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d92e9fa3dbf4d1ab7fee05ed643ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcceleration: 3
-  maxAngularAcceleration: 3
+  maxAcceleration: 6
+  maxAngularAcceleration: 6
   drag: 1
 --- !u!50 &1385469396
 Rigidbody2D:
@@ -2289,8 +2289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d92e9fa3dbf4d1ab7fee05ed643ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcceleration: 3
-  maxAngularAcceleration: 3
+  maxAcceleration: 6
+  maxAngularAcceleration: 6
   drag: 1
 --- !u!50 &1739498765
 Rigidbody2D:
